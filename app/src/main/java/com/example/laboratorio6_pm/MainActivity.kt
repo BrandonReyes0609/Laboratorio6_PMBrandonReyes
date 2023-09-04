@@ -78,8 +78,8 @@ import com.example.laboratorio6_pm.ui.theme.Laboratorio6_PMTheme
         var passwordValue by remember {
             mutableStateOf("")
         }
-        val Correo = ""//"123@gmail.com"
-        val Contrasena = ""//"123"
+        val Correo = "123@gmail.com"
+        val Contrasena = "123"
         var text by rememberSaveable { mutableStateOf("") }
         var password by rememberSaveable { mutableStateOf("") }
         val context = LocalContext.current
